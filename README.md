@@ -16,7 +16,9 @@ __weak typeof(self) weakSelf = self;
     NSLog(@"no blocks keyPath:%@,change:%@,class:%@",keyPath,change,[self class]);
 }
 ```
+```
 ///移除观察者
 -(void)hxw_removeObserver:(NSObject *)observer forKeyPath:(NSString *)keyPath;
 ///移除所有观察者
 -(void)hxw_removeAllObservers;
+```
